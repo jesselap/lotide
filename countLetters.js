@@ -23,7 +23,7 @@ const countLetters = function(string) {
 
 const result1 = countLetters("lighthouse in the house");
 
-
+console.log(countLetters("Lighthouse in the house"));
 
 
 

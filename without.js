@@ -6,9 +6,7 @@ const without = function(source, itemsToRemove) {
       }
     }
   }
-  console.log(source);
+  return source;
 };
 
-without([1, 2, 3], [1]); // => [2, 3]
-without(["1", "2", "3"], [1, 2, "3"]); // => ["1", "2"]
-without(['hello', 'my', 'dear', 'friend'], ['2', 3, 'dear']);
+module.exports = without;

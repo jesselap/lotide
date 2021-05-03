@@ -1,6 +1,3 @@
-
-
-
 const findKeyByValue = function(object, value) {
   let keys = Object.keys(object);
   let values = Object.values(object);
@@ -11,16 +8,4 @@ const findKeyByValue = function(object, value) {
   }
 };
 
-
-
-
-
-const bestTVShowsByGenre = {
-  sci_fi: "The Expanse",
-  comedy: "Brooklyn Nine-Nine",
-  drama:  "The Wire"
-};
-
-
-console.log(findKeyByValue(bestTVShowsByGenre, "The Wire"));
-console.log(findKeyByValue(bestTVShowsByGenre, "That '70s Show"));
+module.exports = findKeyByValue;
